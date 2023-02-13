@@ -11,7 +11,8 @@ public class Scanner01 {
         System.out.println("Lutfen 5 basamakli bir sayi giriniz...");
         int number =  input.nextInt();
         //bir sayinin son rakamini alabilmek icin o sayiyi 10'a bolup kalani almaliyiz
-        // % ==>modulus operator solunda bulunan sayinin saginda bulunan sayiya bolumunden kalani verir
+        // % ==>modulus operator solunda bulunan sayinin saginda bulunan sayiya
+        // bolumunden kalani verir
         //dolayisiyle %10 her zaman bize birler basamaginda bulunan sayiyi verir.
         //bir tamsayiyi bir tamsayiya bolerseniz java sonucu kesinlikle bir tamsayi yapar
         //java bu durumda yuvarlama yapmaz ondalikli kismi iptal eder
