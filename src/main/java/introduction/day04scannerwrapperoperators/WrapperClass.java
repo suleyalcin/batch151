@@ -8,7 +8,8 @@ public class WrapperClass {
         //Wrapper Class'lar non-primitive'dir. o yuzden memory'de cok yer kaplarlar
         //o yuzden sart degilse wrapper class kullanmayi tercih etmeyiz
         //boyle bir imkanin varligindan da haberdar olmaliyiz
-        //"n" yazip "nokta" koyarsaniz hic method goremezsiniz, cunku "primitive" ler method icermez
+        //"n" yazip "nokta" koyarsaniz hic method goremezsiniz,
+        // cunku "primitive" ler method icermez
         int n = 12;
         //"m" yazip "nokta" koyarsaniz bircok method gorebilirsiniz, cunku wrapper class lar method icerir.
         Integer m = 12;
@@ -41,5 +42,6 @@ public class WrapperClass {
         //ii) Wrapper Boolean'i primitive boolean'a ceviriniz. (Unboxing )
         Boolean isOld = true;
         boolean isOldpr = isOld;
+        System.out.println("isOldpr = " + isOldpr);
     }
 }
