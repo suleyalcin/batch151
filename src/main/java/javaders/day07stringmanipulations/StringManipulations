@@ -1,0 +1,12 @@
+                                String Methodlari
+ 1) endsWith () Metnin bellirli bir datayla bitip bitmedigini verir
+                Bize boolean bir sonuc dondurur
+                Tek karakterde , coklu karakterde kullanilabilir
+
+ 2) replace ()  Metnin icerisindeki belirli bir datanin yerine verilen diger datayi yerlestirir
+                String bir data dondurur
+                tekli karakterler ile de coklu karakterler ile de calisir
+                Ancak her iki taraftada " "  ya da  her iki taraftada ' ' kullanilmalidir.
+ 3) replaceAll()Bir grup datayi degistirmek icin kullanilir.
+                Bir grup datayi ifade edebilmek icin Regular
+                Expression (Regex) kullanilir
